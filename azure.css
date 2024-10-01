@@ -4,7 +4,9 @@ body{
 }
 .top-title{
     display: flex;
-    
+    border-bottom: 1px solid #e6e6e6;
+    height: 54px;
+
 }
 .top-title-one{
     display: flex;
@@ -19,17 +21,17 @@ body{
 }
 .top-title-hamburger-img{
     margin: 7px 0px 0px;
-    width: 16px;
-    height: 18px;
-    
+    height: 20px;
+    width: 20px;
+
 }
 .top-title-one-searchh{
     margin: 2px 6px 1px 2px;
     padding: 8px 8px 8px 0px;
      /* height and width specified */
-     text-align: center;
      width: 34px;
      height: 32px;
+     text-align: center;
 }
 .top-title-one-microsof{
     margin: 0px 0px 0px 0px;
@@ -37,4 +39,6 @@ body{
 }
 .top-title-one-searchh-img{
     margin: 0px 0px 0px 2px;
+    width: 16px;
+    height: 18px;
 }
