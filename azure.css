@@ -6,6 +6,7 @@ body{
     display: flex;
     border-bottom: 1px solid #e6e6e6;
     height: 54px;
+    position: relative;
 
 }
 .top-title-one{
@@ -27,18 +28,63 @@ body{
 }
 .top-title-one-searchh{
     margin: 2px 6px 1px 2px;
-    padding: 8px 8px 8px 0px;
+    /* margintop extra added */
+    padding: 15px 8px 8px 0px;
      /* height and width specified */
      width: 34px;
      height: 32px;
      text-align: center;
 }
 .top-title-one-microsof{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     margin: 0px 0px 0px 0px;
-    padding: 12px 4px;
+    padding: 12px 0px;
 }
 .top-title-one-searchh-img{
     margin: 0px 0px 0px 2px;
     width: 16px;
     height: 18px;
 }
+.top-title-two{
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    display: block;
+    height: 34px;
+    position: absolute;
+    width: 100%;
+    top: 54.5px;
+}
+.top-title-two-azure{
+    position: relative;
+    top: 9px;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    display: block;
+    height: 100%;
+    margin: 0px 1px;
+    padding:0 15px;
+    text-align: left;
+}
+
+.top-title-two-azure span{
+     font-weight: 555;
+     font-size: 15px;
+     font-family: sans-serif;
+    
+
+}
+.top-title-two-arrow{
+   width: 12px;
+   padding-left: 7px;
+   position: relative;
+   top: 2px;
+}
+@media screen and (min-width:768px) {
+   
+}
+
