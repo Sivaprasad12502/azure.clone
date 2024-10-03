@@ -97,25 +97,27 @@ body{
    }
    .second-nav-main{
     position: relative;
+    top: -3px;
+    display: flex;
+    align-items: center;
     color: #000000;
     background: #ffffff;
     margin: 0px 0px 2px;
     padding: 0px 24px;
    }
    .secod-nav-img-microsoft{
-     position:absolute;
      margin: 1px 0px 0px;
      padding: 16px 6px 16px 10px;
    }
    .second-nav-azure{
-    position: absolute;
-    left: 20%;
-
+     display: flex;
+     align-items: center;
    }
    .azure-line{
     background-color: #000;
-    width:10px;
-    height: 3px;
+    width:2px;
+    margin: 0px 0px 0px 20px;
+    height: 25px;
    }
    .second-nav-span{
     font-size: 18px;
@@ -123,10 +125,47 @@ body{
     margin-top: -3px;
    }
    .azure-word{
-    /* display: inline; */
-    margin: 1px 0px 0px 18px;
+    margin: 1px 0px 0px 7px;
     padding: 16px 6px 16px 10px;
    }
+   .second-nav-ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   }
+   li{
+    font-size: 13px;
+    margin: 1px -10px 0px 0px;
+    padding: 16px 20px 16px 12px;
+   }
+   /* .second-nav-img{
+    width: 36px;
+    height: 45px;
+    margin: 0px 6px 1px;
+    padding: 15px 9px 30px;
+   } */
+   .second-nav-main-search-img{
+    margin: 0px 0px 0px 2px;
+   }
+   /* cjjs;s */
+   .second-nav-endsec{
+    display: flex;
+    align-items: center;
+   }
+   .search-dv{
+    display: flex;
+    align-items: center;
+    margin: 0px 6px 1px 1px;
+    padding: 15px 9px 15px;
+   }
+   /* .learn{
+    margin: 1px 0px 0px;
+    padding: 10px 8px 10px;
+   } */
 
+}
+@media screen and (min-width:1440px) {
+    
 }
 
