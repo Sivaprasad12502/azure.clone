@@ -117,7 +117,7 @@ body{
     background-color: #000;
     width:2px;
     margin: 0px 0px 0px 20px;
-    height: 25px;
+    height: 24px;
    }
    .second-nav-span{
     font-size: 18px;
@@ -139,33 +139,106 @@ body{
     margin: 1px -10px 0px 0px;
     padding: 16px 20px 16px 12px;
    }
-   /* .second-nav-img{
-    width: 36px;
-    height: 45px;
-    margin: 0px 6px 1px;
-    padding: 15px 9px 30px;
-   } */
-   .second-nav-main-search-img{
-    margin: 0px 0px 0px 2px;
+   .second-nav-main-ulsection{
+    display: flex;
+    align-items: center;
+    
    }
+   
+   
    /* cjjs;s */
    .second-nav-endsec{
-    display: flex;
+    display: none;
     align-items: center;
+   
    }
-   .search-dv{
-    display: flex;
-    align-items: center;
-    margin: 0px 6px 1px 1px;
-    padding: 15px 9px 15px;
+   .search-nav-main-searchhimg{
+    margin: 0px 6px 1px;
+    position: absolute;
+    right: 34px;
+    
+   
    }
-   /* .learn{
-    margin: 1px 0px 0px;
-    padding: 10px 8px 10px;
-   } */
 
 }
 @media screen and (min-width:1440px) {
-    
+    .search-nav-main-searchhimg{
+        display: none;
+    }
+    .second-nav-endsec{
+       display: block;
+       display: flex;
+       gap: 15px;
+       align-items: center;
+       position: absolute;
+       right: 72px;
+       white-space: nowrap;
+
+    }
+    .second-nav-main{
+        margin: 0px 0px 2px;
+        padding: 0px 72px;
+    }
+    .search-dv{
+        margin: 0px 6px 1px 1px;
+        display: flex;
+        align-items: center;
+    }
+    .second-nav-endsec-end{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .second-nav-endsec span{
+        font-size: 13px;
+    }
+    #li-button-first{
+        background-color: #0078d4;
+        color: #fff ;
+        border-radius: 3px;
+        border: 1px solid;
+        height: 31px;
+        margin: 1px 8px;
+        /* margin-top: 11px; */
+        padding-top: 4px;
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: normal;
+        
+    }
+    #li-button-sec{
+        background-color: #fff;
+        color: #262626;
+        border-radius: 3px;
+        border: 1px solid;
+        height: 31px;
+        margin: 1px 8px;
+        /* margin-top: 11px; */
+        padding-top: 4px;
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+    #list-learn{
+        margin: 1px 0px 0px ;
+        padding: 10px 8px 10px;
+    }
+    li a{
+        text-decoration: none;
+        color: #000;
+       
+    }
+    .button-li{
+        padding: 0;
+        margin: 0;
+
+    }
+   
 }
 
