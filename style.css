@@ -87,17 +87,105 @@ body{
 .second-nav{
     display: none;
 }
+/* picture section */
+.section-img{
+    /* position: relative;
+    top:33px; */
+    width: 100%;
+    height: 100%;
+}
+.section-container{
+    background-image: url(/asset/img/mob/Mobile-product-BG-2x\ \(1\).avif);
+    margin-top: 33px;
+    padding-bottom: 56px;
+}
+.container-{
+    /* width: 100%; */
+    padding-right: 1rem;
+    padding-left: 1rem; 
+    /* overflowwwwww */
+}
+.container-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.25rem;
+    margin-left: -.25rem;
+    padding-inline: 4px;
+}
+.container-col{
+    padding-left: -.25rem ;
+    padding-right: -.25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.layout-section{
+    margin-top: 2rem;
+}
+.heading-eyebrow{
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+/* .bloack-heading-title{
+   
+    width: 288px;  
+} */
+h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -.05em;
+    margin: 0;
+
+}
+.bloack-heading-title-paragraph{
+    color:#17253d;
+    margin-top:16px;
+    padding-inline-end: 16px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -.03em;
+}
+.block-heading-slot{
+    margin-top: 24px;
+}
+.btton-group{
+   --button-group-direction:column;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+.btn{
+    border: 2px solid transparent;
+    padding: 0.75em;
+    text-align: center;
+    color: #fff;
+    justify-content: var(--button-justify-content);
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    background-color: #0078d4;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    
+
+
+}
+
 
 @media screen and (min-width:1024px) {
    .first-nav{
     display: none;
    }
    .second-nav{
-    display: inline;
+    display: block;
    }
    .second-nav-main{
-    position: relative;
-    top: -3px;
+    /* position: relative;
+    top: -3px; */
+    height: 54px;
     display: flex;
     align-items: center;
     color: #000000;
@@ -159,6 +247,11 @@ body{
     
    
    }
+   /* section-container margin-top */
+   .section-container{
+     margin-top: unset;
+   }
+
 
 }
 @media screen and (min-width:1440px) {
