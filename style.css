@@ -657,30 +657,34 @@ h1{
     line-height: 1;
 
 }
-.button-itemss--{
+.li-items{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 0.5rem;
-    padding: 0rem 0rem 1.5rem;
+    padding: 24px 0px;
     align-items: center;
     border: none;
     color: #0e1726;
     background: 0;
+    border-top: 0.0625rem solid #bdc5d2; 
+    border-bottom: 0.0625rem solid #bdc5d2;
 }
-.button-itemss--::before{
+.li-items::before{
     font-family: "ic";
     content: "";
     font-size: 1em;
-    transform: rotate(-180deg);
 
 }
-.itms-token-text-span{
+.itms-token-text-second-span{
+    display: block;
+    font-family: "f2";
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.5rem;
     letter-spacing: -.03em;
+    text-align: left;
 
 }
 @media screen and (min-width:1024px) {
