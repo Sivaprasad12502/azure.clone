@@ -940,6 +940,103 @@ h1{
     padding-right: .25rem;
     padding-left: .25rem;
 }
+.garter-component{
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top:1.5rem
+}
+.card-col--{
+    /* padding-right: .25rem;
+    padding-left: .25rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+.card-col--row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -.25rem;
+    margin-left: -.25rem; */
+}
+.card-col--row-col{
+    /* padding-right: .25rem;
+    padding-left: .25rem; */
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.card-horizontal{
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    background-color: #fefefe;
+    border-radius: 1rem;
+    display: block;
+    padding: 1rem;
+    border: 0.0625rem solid #e6f2fb;
+}
+.card-horizontal-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.25rem;
+    margin-left: -.25rem;
+    flex-direction: row;
+}
+.card-horizontal-media{
+    /* padding-inline: 0.75rem;
+    padding-block: 0.5rem 0; */
+    border-radius: 0.5rem;
+}
+.garter-component-image{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    aspect-ratio: 1.33333;
+}
+.card-horizonatal-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    /* padding: 1rem; */
+}
+.garter-block-feature{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: .75rem;
+}
+.block-featere-heading-{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* text-align: left; */
+    gap: 0.5rem;
+}
+.block-feature-content{
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height:  2rem;
+    letter-spacing:  -.05em;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    font-family: "f2";
+}
+.garter-block-paragraph-token-txt{
+    font-weight:  400;
+    font-size:1.125rem;
+    line-height:  1.75rem;
+    letter-spacing:  -.03em;
+    margin-bottom: 0;
+    font-family: "f2";
+}
 
 @media screen and (min-width:1024px) {
    .first-nav{
