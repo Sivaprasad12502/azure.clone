@@ -1589,7 +1589,7 @@ h1{
 .link-group-a{
     display: flex;
     align-items: center;
-    background-color:#c0bebe;
+    background-color:#e6e6e6;
     color: #000;
     text-decoration: none;
     margin-top: .5rem;
@@ -1624,13 +1624,106 @@ h1{
 }
 .col-twelve{
     flex: 0 0 100%;
-    max-width: 100%; 
+    max-width: 100%;
+   
 }
 .d-inline-block{
     vertical-align: middle;
     margin-bottom: .5rem;
     margin-top: .5rem;
     display: inline-block;
+}
+.uhj-footer{
+    background-color: #f2f2f2;
+    margin-top: 48px;
+}
+.uhj-nav{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-group{
+    display: block;
+    float: left;
+    padding: 0 12px;
+}
+.nav-heading{
+    color: #616161;
+    word-break: break-word;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 36px 0 4px;
+    font-weight: 600;
+    font-family: "f2";
+}
+.nav-list{
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "f3";
+}
+.nav-list-li{
+    padding: 8px 0;
+}
+.base-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px 24px 16px;
+}
+.link-picker{
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161;
+    white-space: nowrap;
+}
+.link-picker::before{
+    content: "";
+    font-family: "ic";
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.link-picker--a{
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    color: #616161;
+    float: left;
+    margin: 8px 0 16px 0;
+}
+.link-picker--aa{
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    color: #616161;
+}
+.microsoft-links{
+    display: block;
+}
+.microsoft-links-links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 11px;
+    line-height: 16px;
+    margin: 3px 0;
+    margin-top: 12px;
+    color: #616161;
+    padding: 0;
+    list-style:none;
+}
+.microsoft-links-list{
+    padding: 6px 10px 0 0;
+    
 }
 @media screen and (min-width:1024px) {
    .first-nav{
