@@ -810,6 +810,11 @@ body{
     padding-right: .25rem;
     padding-left: .25rem;
 }
+.card-flex-{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
 .grid-component{
     display: grid;
     background-color: initial;
@@ -889,22 +894,31 @@ body{
 }
 .card-grid--cards{
     position: relative;
+    background-color: #fefefe;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    border-radius: 1rem;
 }
 .card-grid--cards-layout{
     display: flex;
     flex-direction: column;
     row-gap:0.75rem ;
 }
-.card-components{
+/* .card-components{
     background-color: #fefefe;
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
     border-radius: 1rem;
-}
+} */
 .card-content{
     padding: 1rem;
     display: flex;
     justify-content: space-between;
+    flex: 1 1 auto;
+    min-width: 1px;
+    word-wrap: break-word;
+    background-clip: border-box;
     height: 100%;
+
+
 }
 .card-contents-block{
     display: flex;
@@ -928,6 +942,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    flex: 1 1 auto;
     gap: 0.75rem;
 }
 .content-one{
@@ -1796,6 +1811,9 @@ body{
     padding: 6px 10px 0 0;
     
 }
+.ai-chat-banner{
+    display: none;
+}
 @media screen and (min-width:540px) {
      
     .container-{
@@ -1983,10 +2001,138 @@ body{
    .third-nav{
     display: none;
    }
+   .container-col{
+    display: flex;
+   }
    .container-{
     position: absolute;
     top:  70px;
-    width: 50%;
+   }
+   .layout-section{
+    flex-basis: 50%;
+   }
+   .section-container{
+    padding-bottom: unset;
+   }
+   .ai-chat-banner{
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+   .ai-chat-container{
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+   }
+   .ai-chat-banner-row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: .5rem;
+    padding-block: 0.75rem;
+    padding-inline-end: 0.75rem;
+   }
+   .layout--colll{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+   }
+   .ai-chat-banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   }
+   .ai-chat-banner-block-featere{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    text-align: left;
+   }
+   .ai-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+   }
+   .ai-heading-text{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(244, 250, 253);
+    font-family: "f2";
+    letter-spacing :-1.2px;
+    line-height: 32px;
+
+   }
+   .ai-pragraph{
+    color: rgb(244, 250, 253);
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 16px;
+    letter-spacing: -0.42px;
+    font-family: "f2";
+   }
+   .ai-chat-banner-searchh{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    justify-content: center;  */
+    gap: .625rem;
+   }
+   .ai-search-md{
+    width: 100%;
+    background-color: #fefefe;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+
+
+   }
+   .input-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+   }
+   .input-type-txt{
+    padding:20px 60px 20px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    border-radius: 0.5rem;
+    border: none;
+    line-height: 24px;
+   }
+   .mesasge-buton{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+   }
+   .ai-chat-banner-tags{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+   .backroud-dv{
+    height: 4px;
+    background: linear-gradient(90deg, rgb(10, 134, 196) 0.3%, rgb(113, 237, 232) 100%);
+   }
+   .ai-chat-button{
+    padding: 8px 10px;
+    line-height: 20px;
+    border-width: 0.0625rem;
+    font-size: .875rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border-color: #8dc8e8;
+    color: #fff;
+
+   }
+   .ai-chat-banner-li{
+    padding: 0;
    }
    .colll{
     display: flex;
@@ -2009,7 +2155,10 @@ body{
    .col--section-masterr{
     height: 492px;
    } 
-
+   .card-flex-{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+   }
 }
 @media screen and (min-width:1200px){
     .second-nav{
