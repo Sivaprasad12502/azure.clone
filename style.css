@@ -519,6 +519,7 @@ body{
 .row-section-master--slot-col-component{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .tab-overflow{
     overflow-x: auto;
@@ -1232,6 +1233,7 @@ body{
     background: linear-gradient(270deg, rgb(244, 250, 253) 25%, rgba(242, 242, 242, 0) 100%);
     
 }
+
 .arrow-prew-next{
     left: -.25rem;
     border: 2px solid #004275;
@@ -1242,6 +1244,25 @@ body{
     pointer-events: auto;
     background: linear-gradient(270deg, rgb(244, 250, 253) 25%, rgba(242, 242, 242, 0) 100%);
     
+}
+.arrow-selector{
+    right: -.25rem;
+    position: absolute;
+    border: 2px solid #004275;
+    background-color: #b3daf0;
+    border-radius: 12.5rem;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    pointer-events: auto;
+    background: linear-gradient(270deg, rgb(244, 250, 253) 25%, rgba(242, 242, 242, 0) 100%);
+}
+.aros--next::after{
+    content: "";
+    font-family: "ic";
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #004275;
 }
 .previous {
     /* position: absolute; */
@@ -2157,6 +2178,18 @@ body{
     display: flex;
     flex-direction: row;
    }
+   .pill-indicotor{
+    display: block;
+    opacity: 1;
+    border-radius:0.25rem;
+    width: 0.25rem;
+    height: 200px;
+    margin-left: -30px;
+    background-color: #004275;
+    position: absolute;
+
+
+   }
    .collopse-media{
     position: absolute;
     right: 0;
@@ -2372,6 +2405,22 @@ body{
         
         
        
+    }
+    .relative-tab{
+        position: relative;
+    }
+    .arrow-prew-next-prew{
+        margin-top: .5rem;
+        right: 0;
+        top: 0;
+        position: absolute;
+        border: 2px solid #004275;
+        border-radius: 12.5rem;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        pointer-events: auto;
+        background: linear-gradient(270deg, rgb(244, 250, 253) 25%, rgba(242, 242, 242, 0) 100%);
     }
 }
 @media screen and (min-width:1200px){
