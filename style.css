@@ -1337,6 +1337,14 @@ body{
     gap: 2rem;
     /* padding: 1rem; */
 }
+.card-horizonatal-content-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
 .garter-block-feature{
     display: block;
     display: flex;
@@ -1818,6 +1826,9 @@ body{
 .image-controller{
     display: none;
 }
+.ai-chat-button-end{
+    display: none;
+}
 @media screen and (min-width:540px) {
      
     .container-{
@@ -2179,7 +2190,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     gap: 6rem;
-    /* padding: 24px 56px 24px 24px; */
+    padding: 24px 56px 24px 24px;
    }
    .link-tab-item {
      padding: 16px 24px 24px;
@@ -2216,6 +2227,10 @@ body{
         display: flex;
         padding: 24px 56px;
 
+    }
+    .section-mastsr-azure{
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
     .image-controller{
         position: relative;
@@ -2295,20 +2310,68 @@ body{
     .microsoft-links-links{
         gap: 1rem;
     }
+    .uhj-footer{
+        padding-bottom: 70px;
+    }
     .ai-chat-button-end{
         background-color: rgba(255, 255, 255, 0.9);
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-        /* position: fixed; */
+        position: fixed;
         padding: 1rem;
         box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
         border: 0.0625rem solid #e6f2fb;
         border-radius: 1rem;
+        float: right;
+        bottom: 0;
+        right: 0;
+        margin-right: 24px;
+
     }
     .ai-chat-icon-end{
         margin-bottom: 0.25rem;
         display: flex;
+    }
+    .ai-chat-button-end-text{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        text-align: start;
+        white-space: nowrap;
+    }
+    .ai-chat-text-span{
+        color: rgb(23, 37, 61);
+        letter-spacing: -0.54px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: start;
+        font-family: "f2";
+        margin-inline-start:0.75rem;
+    }
+    .ocr-icon--{
+        display: flex;
+        background-color: #0078d4;
+        border-radius: 0.5rem;
+        margin-inline-start:2rem;
+        border: 2px solid transparent;
+    }
+    .plus-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    
+        
+    }
+    .plus-button::after{
+        content: "";
+        font-family: "ic";
+        color: #fff;
+        
+        
+       
     }
 }
 @media screen and (min-width:1200px){
