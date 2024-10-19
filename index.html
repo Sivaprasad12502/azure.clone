@@ -158,48 +158,78 @@
     <section class="section-container">
       <div>
         <div class="image-container">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-hero-slim-bg-360x202?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=405&qlt=100&fmt=png-alpha&fit=constrain"
-            class="section-img"
-          />
+          <picture>
+            <source
+              srcset="
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-hero-slim-bg-1600x580?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=632&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain,
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-hero-slim-bg-1600x580?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=3200&amp;hei=1264&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain 2x
+              "
+              media="(min-width: 1400px)"
+            />
+            <source
+              srcset="
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-hero-slim-bg-1600x580?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=632&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain,
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-hero-slim-bg-1600x580?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=3200&amp;hei=1264&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain 2x
+              "
+              media="(min-width: 1084px)"
+            />
+            <source
+              srcset="
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-hero-slim-bg-360x202?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=405&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+              "
+              media="(min-width: 860px)"
+            />
+            <source
+              srcset="
+                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-hero-slim-bg-360x202?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=405&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+              "
+              media="(min-width: 540px)"
+            />
+            <img
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-hero-slim-bg-360x202?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=405&qlt=100&fmt=png-alpha&fit=constrain"
+              class="section-img"
+            />
+          </picture>
         </div>
-        <div class="container-">
-          <div class="container-row">
-            <div class="container-col">
-              <div class="layout-section">
-                <div class="layout-col">
-                  <div class="heading-eyebrow">
-                    <div>AZURE. LIMITLESS INNOVATION.</div>
-                  </div>
-                  <div class="bloack-heading-title">
-                    <span>The best ideas need the best AI platform</span>
-                  </div>
-                  <div class="bloack-heading-title-paragraph">
-                    <div>
-                      Rely on a flexible, industry-leading platform to build the
-                      AI apps you dream up. Pay as you go or try Azure free for
-                      up to 30 days. There’s no upfront commitment—cancel
-                      anytime.
+        <div class="container-auto-">
+          <div class="container-">
+            <div class="container-row">
+              <div class="container-col">
+                <div class="layout-section">
+                  <div class="layout-col">
+                    <div class="heading-eyebrow">
+                      <div>AZURE. LIMITLESS INNOVATION.</div>
                     </div>
-                  </div>
-                  <div class="inline-flex-button">
-                    <div class="block-heading-slot">
-                      <div class="btton-group">
-                        <a href="" class="-btn-"
-                          ><span>Get started with Azure</span></a
-                        >
+                    <div class="bloack-heading-title">
+                      <span>The best ideas need the best AI platform</span>
+                    </div>
+                    <div class="bloack-heading-title-paragraph">
+                      <div>
+                        Rely on a flexible, industry-leading platform to build the
+                        AI apps you dream up. Pay as you go or try Azure free for
+                        up to 30 days. There’s no upfront commitment—cancel
+                        anytime.
                       </div>
                     </div>
-                    <div class="block-heading-slot-two">
-                      <div class="btton-group">
-                        <a href="" class="-btn-two"
-                          ><span>Explore Azure AI</span></a
-                        >
+                    <div class="inline-flex-button">
+                      <div class="block-heading-slot">
+                        <div class="btton-group">
+                          <a href="" class="-btn-"
+                            ><span>Get started with Azure</span></a
+                          >
+                        </div>
+                      </div>
+                      <div class="block-heading-slot-two">
+                        <div class="btton-group">
+                          <a href="" class="-btn-two"
+                            ><span>Explore Azure AI</span></a
+                          >
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="layout-col"></div>
                 </div>
-                <div class="layout-col"></div>
               </div>
             </div>
           </div>
@@ -540,11 +570,37 @@
 
                       <div class="collopse-media">
                         <div class="collopse-media-image">
-                          <img
-                            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-vertical-accordion-solutions-featured-tab-1-800x636?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=656&hei=540&qlt=100&fmt=png-alpha&fit=constrain"
-                            alt=""
-                            class="image-fluid"
-                          />
+                          <picture>
+                            <source
+                              srcset="
+                                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-vertical-accordion-solutions-featured-tab1-800x636?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1312&amp;hei=984&amp;qlt=100&amp;fmt=png-alpha&amp;fit=crop
+                              "
+                              media="(min-width: 1400px)"
+                            />
+                            <source
+                              srcset="
+                                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-vertical-accordion-solutions-featured-tab1-800x636?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1312&amp;hei=984&amp;qlt=100&amp;fmt=png-alpha&amp;fit=crop
+                              "
+                              media="(min-width: 1084px)"
+                            />
+                            <source
+                              srcset="
+                                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-vertical-accordion-solutions-featured-tab-1-800x636?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=540&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+                              "
+                              media="(min-width: 860px)"
+                            />
+                            <source
+                              srcset="
+                                https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-vertical-accordion-solutions-featured-tab-1-800x636?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=540&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+                              "
+                              media="(min-width: 540px)"
+                            />
+                            <img
+                              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-vertical-accordion-solutions-featured-tab-1-800x636?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=656&hei=540&qlt=100&fmt=png-alpha&fit=constrain"
+                              alt=""
+                              class="image-fluid"
+                            />
+                          </picture>
                         </div>
                         <div class="play-button">
                           <a href="" class="btn-icon-btn">
