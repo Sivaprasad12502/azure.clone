@@ -2552,6 +2552,9 @@ body{
     .microsoft-links{
         margin-left: 2rem;
     }
+    .card-horizontal-media,.card-horizonatal-content{
+        flex-basis: 50%;
+    }
 }
 @media screen and (min-width:1024px){
     .arrow-selector{
@@ -2620,7 +2623,7 @@ body{
     }
     
     #span-search::after{
-        font-family: "ic";
+        font-family: "f1";
         content: "";
         -ms-high-contrast-adjust: none;
         border: none;
@@ -2719,7 +2722,7 @@ body{
         padding: 0px 10px;
     }
     #span-search::after{
-        font-family: "ic";
+        font-family: "f1";
         content: "";
         -ms-high-contrast-adjust: none;
         border: none;
