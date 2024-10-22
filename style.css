@@ -2553,6 +2553,17 @@ body{
         margin-left: 2rem;
     }
 }
+@media screen and (min-width:1024px){
+    .arrow-selector{
+        display: none;
+    }
+    .round-button{
+        display:none;
+    }
+    .tab-arroww--s{
+        display: none;
+    }
+}
 @media screen and (min-width:1100px){
     .text-card-media {
         width: 120%;
@@ -2580,15 +2591,7 @@ body{
     .microsoft-links{
         margin-left: 10rem;
     }
-    .arrow-selector{
-        display: none;
-    }
-    .round-button{
-        display:none;
-    }
-    .tab-arroww--s{
-        display: none;
-    }
+   
     .media-component{
         margin: 32px 152px 0px;
     }
