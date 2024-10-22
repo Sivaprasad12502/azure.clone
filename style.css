@@ -1185,6 +1185,7 @@ body{
     
 }
 .link-tab-item{
+    width: 220px;
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
     padding: 12px 16px 16px;
     position: relative;
@@ -1197,7 +1198,7 @@ body{
 .link-token-text{
     color: #0e1726;
     font-weight: 600;
-    font-size: .875rem;
+    font-size: 16px;
     line-height: 1.25rem;
     
 }
@@ -2056,7 +2057,7 @@ body{
    }
    .container-{
     position: absolute;
-    top:  70px;
+    top:  83px;
    }
    .layout-section{
     flex-basis: 50%;
@@ -2189,17 +2190,11 @@ body{
     display: flex;
     flex-direction: row;
    }
-   .pill-indicotor{
-    display: block;
-    opacity: 1;
-    border-radius:0.25rem;
-    width: 0.25rem;
-    height: 200px;
-    margin-left: -30px;
-    background-color: #004275;
-    position: absolute;
-
-
+    .ul-data-items li{
+        margin-left: 3rem;
+    }
+   .pill-indicator-left{
+    border-left: 4px solid  #004275;
    }
    .row--section-masterrr{
     position: relative;
@@ -2255,6 +2250,7 @@ body{
       padding: 32px 0px 72px;
     }
     .media-component{
+        /* width: 66.667%; */
         padding: 24px;
         margin-left :122.328px;
         margin-right :122.344px;
@@ -2270,6 +2266,9 @@ body{
     .group-text-card{
         flex-direction: row-reverse;
     }
+    .btton-group{
+        flex-direction: row;
+    }
     .text-card-media{
         width: 150%;
     }
@@ -2277,7 +2276,7 @@ body{
         padding: 0;
     }
     .block-slim-products{
-        flex-direction: row;
+        flex-direction: column;
     }
     .utility-container-component{
         display: flex;
@@ -2367,7 +2366,7 @@ body{
         gap: 1rem;
     }
     .uhj-footer{
-        padding-bottom: 70px;
+        margin-bottom: 70px;
     }
     .ai-chat-button-end{
         z-index: 2;
@@ -2452,7 +2451,7 @@ body{
     
     .stick-top{
         position: sticky;
-        bottom: 0;
+        /* bottom: 0; */
         top: 0;
         z-index: 2;
         display: block;
@@ -2548,6 +2547,7 @@ body{
         background-color: #0078d4;
         border-radius: 0.5rem;
         padding: 0.5rem 1rem;
+        font-family: "f3";
     }
     .microsoft-links{
         margin-left: 2rem;
@@ -2582,6 +2582,15 @@ body{
     }
     .arrow-selector{
         display: none;
+    }
+    .round-button{
+        display:none;
+    }
+    .tab-arroww--s{
+        display: none;
+    }
+    .media-component{
+        margin: 32px 152px 0px;
     }
 }
 @media screen and (min-width:1200px){
@@ -2838,6 +2847,16 @@ body{
         letter-spacing: -0.6px;
         line-height: 32px;
     }
+    .arrow-prew-next-prew{
+        display: none;
+    }
+    .media-component{
+        margin: 32px 222.672px 0px;
+    }
+    .image-indicators li {
+        max-width: 200px;
+    }
+
 
 }
 @media screen and (min-width:2500px){
