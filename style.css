@@ -33,13 +33,13 @@ body{
     display: flex;
     align-items: center;
 }
-.top-title-hamburger{
-    margin: 1px;
+.top-title-hamburger{ 
+    margin:3px 1px 1px 1px;
     width: 48px;
     text-align: center;
 }
 .top-title-hamburger::before{
-    font-size: 19px;
+    font-size: 20px;
     width: 20px;
     height: 20px;
     margin-top: 7px;
@@ -1812,6 +1812,7 @@ body{
     padding: 30px 24px 16px;
 }
 .link-picker{
+    text-decoration: none;
     font-size: 11px;
     line-height: 16px;
     display: inline-block;
@@ -1828,6 +1829,7 @@ body{
     vertical-align: middle;
 }
 .link-picker--a{
+    text-decoration: none;
     display: flex;
     font-size: 11px;
     line-height: 16px;
@@ -1838,6 +1840,7 @@ body{
     margin: 8px 0 16px 0;
 }
 .link-picker--aa{
+    text-decoration: none;
     display: flex;
     font-size: 11px;
     line-height: 16px;
@@ -2084,15 +2087,25 @@ body{
      padding-right: 3.5rem;
    }
    .bloack-heading-title-paragraph{
-    padding-block-end: 40px;
+    padding: 0px 53px 0px 0px;
     margin-top: 24px;
    }
    .container-auto-{
     position: absolute;
     margin-bottom: 80px;
    }
+   .-btn-,.-btn-two{
+    padding: 13px 16px;
+   }
    .bloack-heading-title{
+    line-height: 48px;
     font-size: 40px;
+   }
+   .heading-eyebrow{
+     margin-bottom: 16px;
+   }
+   .block-heading-slot,.block-heading-slot-two{
+    margin-top: 32px;
    }
    .layout-section{
     flex-basis: 50%;
@@ -2417,7 +2430,7 @@ body{
         float: right;
         bottom: 0;
         right: 0;
-        margin-right: 24px;
+        margin-right: 16px;
 
     }
     .ai-chat-icon-end{
@@ -2857,7 +2870,7 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .uhj-nav,.base-container{
+    .base-container{
         max-width: 1328px;
         margin-left: auto;
         margin-right: auto;
@@ -2872,8 +2885,8 @@ body{
     
     }
     .section-master-container {
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
         max-width: 1328px;
         margin-left: auto;
         margin-right: auto;
@@ -2907,7 +2920,42 @@ body{
         font-size: 40px;
         color: rgb(244, 250, 253);
     }
-
+    .container-auto-{
+        max-width: 1328px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 5%;
+        padding-left: 5%;
+        /* width: 90%; */
+        box-sizing: content-box;
+    }
+    .container-row{
+        margin: 0;
+    }
+    .container-,.ai-chat-container{
+        padding: 0;
+    }
+    .section-master-image-container,.garter-component{
+        padding: 0;
+    }
+    .uhj-nav{
+        padding: 0px 8%;
+    }
+    .base-container{
+        
+        flex-wrap: nowrap;
+        padding: 0px 8%;
+    }
+    .microsoft-links{
+        margin: 0;
+    }
+    .microsoft-links-links{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
 }
 @media screen and (min-width:2000px){
     
