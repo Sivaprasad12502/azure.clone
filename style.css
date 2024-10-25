@@ -1191,11 +1191,21 @@ body{
     min-width:181.328px;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    max-width: calc(1328px / 6);
+    width: 100%;
+    flex: 0 0 auto;
     border-bottom: 4px solid rgb(0, 66, 117) ;
 }
+
 .interactive-link{
-    border-top-left-radius:0.5rem;
-    border-bottom-left-radius:0.5rem;
+    height: 62px;
+    max-width: calc(1328px / 6);
+    width: 100%;
+    flex: 0 0 auto;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    /* border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem; */
     background-color: #fefefe;
     text-decoration: none;
     font-family: "f2";
@@ -1204,8 +1214,8 @@ body{
     
 }
 .link-tab-item{
-    width: 220px;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    /* width: 220px; */
+    /* box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14); */
     padding: 12px 16px 16px;
     position: relative;
     overflow: hidden;
@@ -1231,6 +1241,8 @@ body{
     overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     border-top-left-radius:0.5rem;
     border-bottom-left-radius:0.5rem;
 }
@@ -1811,6 +1823,10 @@ body{
     flex-direction: column;
     padding: 30px 24px 16px;
 }
+.base-container-subb-{
+    display: flex;
+    flex-direction: column;
+}
 .link-picker{
     text-decoration: none;
     font-size: 11px;
@@ -1864,7 +1880,7 @@ body{
     list-style:none;
 }
 .microsoft-links-list{
-    padding: 6px 10px 0 0;
+    padding: 6px 10px 4px 0px;
     
 }
 .ai-chat-banner{
@@ -1877,6 +1893,14 @@ body{
     display: none;
 }
 .stick-top{
+    display: none;
+}
+.intractive-demo{
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain);
+}
+.arrow-prew-next-prew{
     display: none;
 }
 @media screen and (min-width:540px) {
@@ -2481,6 +2505,7 @@ body{
         position: relative;
     }
     .arrow-prew-next-prew{
+        display: block;
         margin-top: .5rem;
         right: 0;
         top: 0;
@@ -2603,6 +2628,7 @@ body{
     .card-horizontal-media,.card-horizonatal-content{
         flex-basis: 50%;
     }
+    
 }
 @media screen and (min-width:1024px){
     .arrow-selector{
@@ -2870,11 +2896,7 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .base-container{
-        max-width: 1328px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+   
     .second-nav-main{
         justify-content: space-around;
     }
@@ -2940,13 +2962,19 @@ body{
     .section-master-image-container,.garter-component{
         padding: 0;
     }
-    .uhj-nav{
+    /* .uhj-nav{
         padding: 0px 8%;
-    }
+    } */
     .base-container{
         
         flex-wrap: nowrap;
-        padding: 0px 8%;
+        justify-content: space-between;
+        padding-bottom: 16px;
+    }
+    .base-container-subb-{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     .microsoft-links{
         margin: 0;
@@ -2955,6 +2983,9 @@ body{
         display: flex;
         flex-wrap: nowrap;
         margin: 0;
+    }
+    .interactive-dmeo-bg-image{
+        top: 19rem;
     }
 }
 @media screen and (min-width:2000px){
