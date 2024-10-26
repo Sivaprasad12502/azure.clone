@@ -1318,6 +1318,12 @@ body{
     white-space: nowrap;
     border: 0;
 }
+.previous-next-arow::after{
+    content: "";
+    font-family: "f1";
+    color: #004275;
+    font-size: 1.125rem;
+}
 .previous::after{
     content: "";
     font-family: "ic";
@@ -2149,9 +2155,9 @@ body{
    .ai-chat-banner-row{
     display: flex;
     /* flex-wrap: wrap; */
-    gap: 5rem;
-    padding-block: 0.75rem;
-    padding-inline-end: 0.75rem;
+    gap: 1rem;
+    /* padding-block: 0.75rem;
+    padding-inline-end: 0.75rem; */
    }
    .layout--colll{
     display: flex;
@@ -2159,6 +2165,7 @@ body{
     flex-basis: 50%;
    }
    .ai-chat-banner-text{
+    padding: 12px 12px 12px 0px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -2179,7 +2186,7 @@ body{
     font-weight: 600;
     font-size: 1.5rem;
     color: rgb(244, 250, 253);
-    font-family: "f2";
+    font-family: "f3";
     letter-spacing :-1.2px;
     line-height: 32px;
 
@@ -2188,7 +2195,7 @@ body{
     color: rgb(244, 250, 253);
     font-size: 14px;
     font-weight: 400px;
-    line-height: 16px;
+    /* line-height: 16px; */
     letter-spacing: -0.42px;
     font-family: "f2";
    }
@@ -2201,6 +2208,9 @@ body{
     gap: .625rem;
    }
    .ai-search-md{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 100%;
     background-color: #fefefe;
     border-radius: 0.5rem;
@@ -2216,13 +2226,15 @@ body{
     
    }
    .input-type-txt{
+    width: 100%;
     padding:20px 60px 20px 16px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
     border-radius: 0.5rem;
     border: none;
-    line-height: 24px;
+    font-family: "f2";
+    /* line-height: 24px; */
    }
    .mesasge-buton{
     display: flex;
@@ -2458,8 +2470,9 @@ body{
 
     }
     .ai-chat-icon-end{
-        margin-bottom: 0.25rem;
+        margin-top: 0.25rem;
         display: flex;
+       
     }
     .ai-chat-button-end-text{
         display: flex;
@@ -2475,7 +2488,7 @@ body{
         font-weight: 600;
         line-height: 28px;
         text-align: start;
-        font-family: "f2";
+        font-family: "f3";
         margin-inline-start:0.75rem;
     }
     .ocr-icon--{
@@ -2602,6 +2615,10 @@ body{
         font-weight: 600;
         font-size: .875rem;
         line-height: 1.25rem;
+    }
+    .button-flex{
+        display: flex;
+        align-items: center;
     }
     .button-item-group{
         margin-inline-start: 2rem;
@@ -2986,6 +3003,12 @@ body{
     }
     .interactive-dmeo-bg-image{
         top: 19rem;
+    }
+    .ai-chat-text-span{
+        font-size: 20px;
+    }
+    .ai-heading-text{
+        font-size: 32px;
     }
 }
 @media screen and (min-width:2000px){
